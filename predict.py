@@ -8,7 +8,7 @@ import numpy as np
 from prophet.plot import plot_plotly
 
 def predict_4(total_df):
-    path = 'C:/Windows/Fonts/H2MJRE.TTF'
+    path = 'NotoSansKR-VariableFont_wght.ttf'
     fontprop = fm.FontProperties(fname=path, size=12)
 
     total_df['DEAL_YMD'] = pd.to_datetime(total_df['DEAL_YMD'], format='%Y-%m-%d')
@@ -44,7 +44,7 @@ def predict_4(total_df):
 
 def predict_25(total_df):
     # 한글폰트 설정
-    path = 'C:/Windows/Fonts/H2MJRE.TTF'
+    path = 'NotoSansKR-VariableFont_wght.ttf'
     fontprop = fm.FontProperties(fname=path, size=12)
 
     total_df['DEAL_YMD'] = pd.to_datetime(total_df['DEAL_YMD'], format='%Y-%m-%d')
